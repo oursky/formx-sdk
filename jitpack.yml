@@ -1,0 +1,5 @@
+install:
+  - wget https://github.com/oursky/formx-sdk/releases/download/0.1.10/ai.formx.sdk.aar
+  - wget https://github.com/oursky/formx-sdk/releases/download/0.1.10/pom.xml -O sdk-pom.xml
+  - rm -f pom.xml
+  - mvn install:install-file -Dfile=ai.formx.sdk.aar -Dpackaging=aar -DpomFile=sdk-pom.xml
