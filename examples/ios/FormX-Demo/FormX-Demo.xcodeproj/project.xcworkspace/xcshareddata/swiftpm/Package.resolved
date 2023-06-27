@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "formx-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/oursky/formx-sdk",
+      "state" : {
+        "revision" : "274cb91ff7059b3083eb062a9b563d3086aa5e79",
+        "version" : "0.1.16"
+      }
+    }
+  ],
+  "version" : 2
+}
