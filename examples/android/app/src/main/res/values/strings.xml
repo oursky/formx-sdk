@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FormX Demo</string>
+    <string name="label_initial">Initial Fragment</string>
+    <string name="label_camera">Camera Fragment</string>
+    <string name="open_camera">Open Camera</string>
+</resources>
